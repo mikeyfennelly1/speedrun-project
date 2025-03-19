@@ -1,3 +1,26 @@
 = SysinfoServer
 
 Start a TCP server that retrieves sysinfo on the host. Exposes an API to get data from server and to configure the data returned from the server.
+
+== Relevant types
+
+*Concurrency Style*:
+
+[source, java]
+----
+enum ConcurrencyStyle {
+	Fixed, Cached, Single, Scheduled, SingleThreadScheduled 
+}
+----
+
+== Methods
+
+=== sysinfoServerStart(int portNumber, ConcurrencyStyle concurrencyStle);
+
+Start a server on a specified TCP port, and with a concurrency style (of type ConcurrencyStyle).
+
+== Endpoints
+
+All get endpoints return JSON data.
+
+=== http://<hostname>:<server-port>/running-pids

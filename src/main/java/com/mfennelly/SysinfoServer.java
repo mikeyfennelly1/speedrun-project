@@ -4,7 +4,7 @@ package com.mfennelly;
  * Hello world!
  *
  */
-public class App 
+public class SysinfoServer
 {
     public static void main( String[] args )
     {
