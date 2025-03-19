@@ -1,0 +1,3 @@
+= SysinfoServer
+
+Start a TCP server that retrieves sysinfo on the host. Exposes an API to get data from server and to configure the data returned from the server.
