@@ -1,0 +1,3 @@
+= speedrun-project
+
+A project to learn about Java concurrency and refresh on threads.
