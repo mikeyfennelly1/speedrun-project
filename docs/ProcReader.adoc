@@ -1,0 +1,6 @@
+= ProcReader
+
+This file is used to interact with the /proc directory. Can do the following:
+
+1. _getRunningProcs_: Get currently running processes.
+2. _getInfoForProc_: Get information for a currently running process on the machine.
