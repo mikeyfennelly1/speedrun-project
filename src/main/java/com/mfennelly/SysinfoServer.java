@@ -1,13 +1,12 @@
 package com.mfennelly;
 
-/**
- * Hello world!
- *
- */
+enum ConcurrencyStyle {
+    Fixed, Cached, Single, Scheduled, SingleThreadScheduled
+}
+
 public class SysinfoServer
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    static void startServer(int portNum, ConcurrencyStyle concurrencyStyle) {
+
     }
 }
